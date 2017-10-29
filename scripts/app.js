@@ -51,7 +51,7 @@ $(document).ready(function() {
           	    
 
       $('.fade').click(function(i, house) {
-      $(this).remove();
+      $(this).css("display", "none");
       });
     },
   });

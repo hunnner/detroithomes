@@ -45,5 +45,6 @@ body {
 .fade {
   width: 6.66vw;
   height: 5vh;
+  line-height: 5vh;
   background: black;
 }
