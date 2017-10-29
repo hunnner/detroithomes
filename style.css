@@ -1,0 +1,49 @@
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 2vw;
+  text-align: center;
+  font-family: helvetica;
+  background-color: black;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.container {
+}
+
+.col {
+  float: left;
+  background: black;
+  color: white;
+}
+
+.fade {
+  width: 6.66vw;
+  height: 5vh;
+  background: black;
+}
